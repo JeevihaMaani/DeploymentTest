@@ -14,6 +14,7 @@ namespace WebCatalogue.Controllers
 {
     public class ProductsController : ApiController
     {
+
         private EFContext db = new EFContext();
 
         // GET: api/Products
